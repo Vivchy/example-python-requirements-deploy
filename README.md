@@ -24,15 +24,31 @@ $ pip --version
 
 **Установка venv**
 
-$ pip install virtualenv
+$ sudo apt install python3-venv
+
+****
+
+**Создание папки venv**
+
+$ cd ~/project
+
+путь до исполняемого файла питона 
+
+$ /usr/bin/python3 -m venv venv
 
 ****
 
 **Активация venv** 
 
-C:\folderprogect\venv\Scripts\activate.bat
+C:\folderprogect\venv\Scripts\activate.bat *(windows)*
 	
-source env/bin/activate
+source ./venv/bin/activate
+
+****
+
+**Деактивация venv**
+
+(venv) $ deactivate
 
 ****
 
