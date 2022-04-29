@@ -28,13 +28,19 @@ $ sudo apt install python3-venv
 
 ****
 
-**Создание папки venv**
+****
 
-$ cd ~/project
+**Создание папки venv в проекте**
+
+$ cd ~/project (project - имя директории со скриптом) 
 
 путь до исполняемого файла питона 
 
-$ /usr/bin/python3 -m venv venv
+$ /usr/bin/python3 -m venv venv  
+
+или 
+
+$ python3 -m venv venvRandomName (произвольное имя папки)  
 
 ****
 
@@ -42,7 +48,7 @@ $ /usr/bin/python3 -m venv venv
 
 C:\folderprogect\venv\Scripts\activate.bat *(windows)*
 	
-source ./venv/bin/activate
+source ./venv/bin/activate (директория venv может называться произвально)
 
 ****
 
