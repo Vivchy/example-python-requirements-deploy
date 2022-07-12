@@ -30,7 +30,7 @@ $ sudo apt install python3-venv
 
 ****
 
-**Создание папки venv в проекте**
+### **Создание папки venv в проекте**
 
 $ cd ~/project (project - имя директории со скриптом) 
 
